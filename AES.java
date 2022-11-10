@@ -47,8 +47,8 @@ public class AES {
     }
 
     public static void main(String[] args) {
-        String clave = "SeguridadInforma"; // 128 bit key
-        String iv = "SeguridadInforma"; // 16 bytes IV
+        String clave = "SeguridadInforma"; 
+        String iv = "SeguridadInforma"; 
         String textoAEncriptar = "AESFuncionando";
         String textoADesencriptar = encriptar(clave, iv, textoAEncriptar);
 
